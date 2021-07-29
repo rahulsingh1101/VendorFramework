@@ -8,7 +8,7 @@
 import Foundation
 
 public class TestClass {
-    public static func testFunc() -> String {
-        "Test success"
+    public static func testMethod() -> String {
+        "Test method"
     }
 }
