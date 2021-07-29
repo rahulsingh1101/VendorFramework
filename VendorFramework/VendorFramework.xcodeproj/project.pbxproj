@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		1FEDA6D426B2F35500A1B790 /* VendorFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FEDA6D226B2F35500A1B790 /* VendorFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FEDA6DB26B2F36600A1B790 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDA6DA26B2F36600A1B790 /* TestClass.swift */; };
+		1FEDA6DF26B2FE1C00A1B790 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FEDA6DE26B2FE1C00A1B790 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1FEDA6CF26B2F35500A1B790 /* VendorFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VendorFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FEDA6D226B2F35500A1B790 /* VendorFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VendorFramework.h; sourceTree = "<group>"; };
-		1FEDA6D326B2F35500A1B790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FEDA6DA26B2F36600A1B790 /* TestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
+		1FEDA6DE26B2FE1C00A1B790 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +51,7 @@
 			children = (
 				1FEDA6D226B2F35500A1B790 /* VendorFramework.h */,
 				1FEDA6DA26B2F36600A1B790 /* TestClass.swift */,
-				1FEDA6D326B2F35500A1B790 /* Info.plist */,
+				1FEDA6DE26B2FE1C00A1B790 /* Info.plist */,
 			);
 			path = VendorFramework;
 			sourceTree = "<group>";
@@ -124,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FEDA6DF26B2FE1C00A1B790 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +275,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = VendorFramework/Info.plist;
+				INFOPLIST_FILE = /Users/rahulsingh/Desktop/Cocoapods/VendorFramework/VendorFramework/VendorFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,7 +301,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = VendorFramework/Info.plist;
+				INFOPLIST_FILE = /Users/rahulsingh/Desktop/Cocoapods/VendorFramework/VendorFramework/VendorFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
