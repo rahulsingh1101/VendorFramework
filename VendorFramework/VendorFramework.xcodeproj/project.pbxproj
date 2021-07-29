@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1FEDA6D426B2F35500A1B790 /* VendorFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FEDA6D226B2F35500A1B790 /* VendorFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FEDA6DB26B2F36600A1B790 /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDA6DA26B2F36600A1B790 /* TestClass.swift */; };
-		1FEDA6DF26B2FE1C00A1B790 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FEDA6DE26B2FE1C00A1B790 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -125,7 +124,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FEDA6DF26B2FE1C00A1B790 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +281,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sugarboxnetworks.VendorFramework;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -309,6 +308,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sugarboxnetworks.VendorFramework;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
