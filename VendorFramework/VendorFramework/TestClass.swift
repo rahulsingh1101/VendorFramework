@@ -6,9 +6,10 @@
 //
 
 import Foundation
+import CarthageSubModuleFramework
 
 public class TestClass {
     public static func testMethod() -> String {
-        "Test method"
+        "Calling from VendorFramework : \(CarthageSubmoduleClass.callTestMethod())"
     }
 }
